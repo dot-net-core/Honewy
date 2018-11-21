@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Honey", "Honey", "{83CD6E6D-DA75-480C-B8DF-DA53D64B931C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{D0D017A7-8DB6-48B0-A3B3-3D383033831D}"
+	ProjectSection(SolutionItems) = preProject
+		Config\AppSettingsSecrets.config = Config\AppSettingsSecrets.config
+		Config\ConnectionStrings.config = Config\ConnectionStrings.config
+		Config\log4net.config = Config\log4net.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F10F2948-461D-406E-9B01-6BBD136ADF20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Honey.Api", "Honey\Honey.Api\Honey.Api.csproj", "{594A850B-9DDB-4368-92F5-E922EB62B7DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Honey.Application", "Honey\Honey.Application\Honey.Application.csproj", "{D8A72389-9518-4390-819B-8C92E2A3221D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Honey.Core", "Honey\Honey.Core\Honey.Core.csproj", "{C0F6BEBC-5F33-45E2-A1FB-548C9A0197B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Honey.EntityFramework", "Honey\Honey.EntityFramework\Honey.EntityFramework.csproj", "{6BE5E975-F6DE-43EA-BC0C-C5788170C894}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A44497EB-F6BE-4D1A-938F-91039E0B4C11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Honey.Web", "Honey\Honey.Web\Honey.Web.csproj", "{C1A30345-FF76-4A56-803B-B712EE63E98D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Honey.Web.Test", "Tests\Honey.Web.Test\Honey.Web.Test.csproj", "{98900CB3-A60F-489A-987C-260F0CFC993D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Honey.IdentityServer.Test", "Tests\Honey.IdentityServer.Test\Honey.IdentityServer.Test.csproj", "{48291314-49D6-4820-93BF-D08E45B24534}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Honey.IdentityServer", "Honey\Honey.IdentityServer\Honey.IdentityServer.csproj", "{D15BEFDF-75F7-44BC-913F-D5858B2DB89C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{594A850B-9DDB-4368-92F5-E922EB62B7DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{594A850B-9DDB-4368-92F5-E922EB62B7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{594A850B-9DDB-4368-92F5-E922EB62B7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{594A850B-9DDB-4368-92F5-E922EB62B7DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A72389-9518-4390-819B-8C92E2A3221D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A72389-9518-4390-819B-8C92E2A3221D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A72389-9518-4390-819B-8C92E2A3221D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A72389-9518-4390-819B-8C92E2A3221D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F6BEBC-5F33-45E2-A1FB-548C9A0197B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F6BEBC-5F33-45E2-A1FB-548C9A0197B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F6BEBC-5F33-45E2-A1FB-548C9A0197B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F6BEBC-5F33-45E2-A1FB-548C9A0197B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE5E975-F6DE-43EA-BC0C-C5788170C894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE5E975-F6DE-43EA-BC0C-C5788170C894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE5E975-F6DE-43EA-BC0C-C5788170C894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE5E975-F6DE-43EA-BC0C-C5788170C894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A30345-FF76-4A56-803B-B712EE63E98D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A30345-FF76-4A56-803B-B712EE63E98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A30345-FF76-4A56-803B-B712EE63E98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A30345-FF76-4A56-803B-B712EE63E98D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98900CB3-A60F-489A-987C-260F0CFC993D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98900CB3-A60F-489A-987C-260F0CFC993D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98900CB3-A60F-489A-987C-260F0CFC993D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98900CB3-A60F-489A-987C-260F0CFC993D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48291314-49D6-4820-93BF-D08E45B24534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48291314-49D6-4820-93BF-D08E45B24534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48291314-49D6-4820-93BF-D08E45B24534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48291314-49D6-4820-93BF-D08E45B24534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D15BEFDF-75F7-44BC-913F-D5858B2DB89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D15BEFDF-75F7-44BC-913F-D5858B2DB89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D15BEFDF-75F7-44BC-913F-D5858B2DB89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D15BEFDF-75F7-44BC-913F-D5858B2DB89C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{594A850B-9DDB-4368-92F5-E922EB62B7DC} = {83CD6E6D-DA75-480C-B8DF-DA53D64B931C}
+		{D8A72389-9518-4390-819B-8C92E2A3221D} = {83CD6E6D-DA75-480C-B8DF-DA53D64B931C}
+		{C0F6BEBC-5F33-45E2-A1FB-548C9A0197B7} = {83CD6E6D-DA75-480C-B8DF-DA53D64B931C}
+		{6BE5E975-F6DE-43EA-BC0C-C5788170C894} = {83CD6E6D-DA75-480C-B8DF-DA53D64B931C}
+		{C1A30345-FF76-4A56-803B-B712EE63E98D} = {83CD6E6D-DA75-480C-B8DF-DA53D64B931C}
+		{98900CB3-A60F-489A-987C-260F0CFC993D} = {A44497EB-F6BE-4D1A-938F-91039E0B4C11}
+		{48291314-49D6-4820-93BF-D08E45B24534} = {A44497EB-F6BE-4D1A-938F-91039E0B4C11}
+		{D15BEFDF-75F7-44BC-913F-D5858B2DB89C} = {83CD6E6D-DA75-480C-B8DF-DA53D64B931C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97B2A7C3-E4DA-4A78-A875-BCEB26F20EB7}
+	EndGlobalSection
+EndGlobal
